@@ -25,12 +25,12 @@
                             <li class="submenu">
                                 <a href="#">Connectivity</a>
                                 <ul class="sublist">
-                                    <li><a href="#">nbn Business</a></li>
-                                    <li><a href="#">Fixed Wireless</a></li>
-                                    <li><a href="#">Ethernet</a></li>
-                                    <li><a href="#">Fibre</a></li>
-                                    <li><a href="#">Setellite</a></li>
-                                    <li><a href="#">Wholesale</a></li>
+                                    <li><a href="business.html">nbn Business</a></li>
+                                    <li><a href="fixed-wireless.html">Fixed Wireless</a></li>
+                                    <li><a href="enthernet.html">Ethernet</a></li>
+                                    <li><a href="fibre.html">Fibre</a></li>
+                                    <li><a href="satellite.html">Setellite</a></li>
+                                    <li><a href="wholesale.html">Wholesale</a></li>
                                 </ul>
                             </li>
                             <li><a href="software-defined-wan.html">Sd-wan</a></li>
@@ -46,9 +46,9 @@
                             <li class="submenu">
                                 <a href="#">Solutions</a>
                                 <ul class="sublist">
-                                    <li><a href="#">Hybrid Cloud</a></li>
-                                    <li><a href="#">Co-location</a></li>
-                                    <li><a href="#">On Premise</a></li>
+                                    <li><a href="hybrid-cloud.html">Hybrid Cloud</a></li>
+                                    <li><a href="co-location.html">Co-location</a></li>
+                                    <li><a href="on-premise.html">On Premise</a></li>
                                 </ul>
                             </li>
                             <li><a href="papua-new-guinea.html">Papua New Guinea</a></li>
@@ -101,7 +101,12 @@
                     </div>
                 </div>
                 <div class="papua-welcomescreen__imgwrapp">
-                    <img class="dmap" src="img/svg/map.svg" alt="map">
+                    <div id="scene1">
+                        <div data-depth="0.05">
+                            <img class="dmap" src="img/svg/map.svg" alt="map">
+                        </div>
+                    </div>
+                    <!-- <img class="dmap" src="img/svg/map.svg" alt="map"> -->
                     <img class="mmap" src="img/svg/map-mob.svg" alt="map">
                 </div>
             </div>
@@ -273,9 +278,20 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="img/parallax/parralax1.svg" alt="img" class="pe-plax pe-plax__1">
-                        <img src="img/parallax/parralax2.svg" alt="img" class="pe-plax pe-plax__2">
-                        <img src="img/parallax/parralax3.svg" alt="img" class="pe-plax pe-plax__3">
+                        <div id="scene2">
+                            <div data-depth="0.05">
+                                <img src="img/parallax/parralax1.svg" alt="img" class="pe-plax pe-plax__1">
+                            </div>
+                            <div data-depth="-0.05">
+                                <img src="img/parallax/parralax2.svg" alt="img" class="pe-plax pe-plax__2">
+                            </div>
+                            <div data-depth="0.05">
+                                <img src="img/parallax/parralax3.svg" alt="img" class="pe-plax pe-plax__3">
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
 
@@ -421,8 +437,9 @@
     </div>
 
     <script src="js/jquery.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/lib/parallax.js"></script> -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
