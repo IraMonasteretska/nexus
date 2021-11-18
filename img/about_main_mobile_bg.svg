@@ -34,10 +34,10 @@
       animation: 1.6s linear 1.6s infinite arrowWay;
     }
     .building {
-      animation: 2s ease-in-out infinite levitate;
+      animation: 4s ease-in-out infinite levitate;
     }
     .shadow {
-      animation: 2s linear infinite shadows;
+      animation: 4s linear infinite shadows;
     }
     
     @keyframes shadows {
