@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nexus</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -23,16 +23,16 @@
           </div>
           <div class="header__nav">
             <ul>
-              <li><a href="#">About us</a></li>
+              <li><a href="about.html">About us</a></li>
               <li class="submenu">
                 <a href="#">Connectivity</a>
                 <ul class="sublist">
-                  <li><a href="#">nbn Business</a></li>
-                  <li><a href="#">Fixed Wireless</a></li>
-                  <li><a href="#">Ethernet</a></li>
-                  <li><a href="#">Fibre</a></li>
-                  <li><a href="#">Setellite</a></li>
-                  <li><a href="#">Wholesale</a></li>
+                  <li><a href="business.html">nbn Business</a></li>
+                  <li><a href="fixed-wireless.html">Fixed Wireless</a></li>
+                  <li><a href="enthernet.html">Ethernet</a></li>
+                  <li><a href="fibre.html">Fibre</a></li>
+                  <li><a href="satellite.html">Setellite</a></li>
+                  <li><a href="wholesale.html">Wholesale</a></li>
                 </ul>
               </li>
               <li><a href="software-defined-wan.html">Sd-wan</a></li>
@@ -48,17 +48,17 @@
               <li class="submenu">
                 <a href="#">Solutions</a>
                 <ul class="sublist">
-                  <li><a href="#">Hybrid Cloud</a></li>
-                  <li><a href="#">Co-location</a></li>
-                  <li><a href="#">On Premise</a></li>
+                  <li><a href="hybrid-cloud.html">Hybrid Cloud</a></li>
+                  <li><a href="co-location.html">Co-location</a></li>
+                  <li><a href="on-premise.html">On Premise</a></li>
                 </ul>
               </li>
               <li><a href="papua-new-guinea.html">Papua New Guinea</a></li>
-              <li><a href="#">Nexus Hospitality</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="hospitality.html">Nexus Hospitality</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="header__btn header__btn-mob">
-              <a href="#">Get Started</a>
+              <a href="contact.html">Get Started</a>
             </div>
             <div class="mobclosemenu">
               <img src="img/svg/close.svg" alt="close menu">
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="header__btn">
-            <a href="#">Get Started</a>
+            <a href="contact.html">Get Started</a>
           </div>
           <a href="#" class="header__burgerbtn">
             <img src="img/svg/burger.svg" alt="menu">
@@ -124,8 +124,12 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-6 col-xxl-4 order-2 order-lg-1 ">
-              <div class="connecting__content-img">
-                <img src="img/connecting_img.svg" alt="image">
+              <div class="connecting__content-img parallax">
+                <div id="scene">
+                  <div data-depth="0.3">
+                    <img src="img/connecting_img.svg" alt="image">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-lg-6 col-xxl-4 order-1 order-lg-2">
@@ -320,22 +324,27 @@
             WHAT <span>NEXUS</span> CAN DO FOR YOUR BUSINESS
           </div>
           <div class="index-features__content">
-            
+
             <div class="row justify-content-center">
               <div class="col-xxl-8">
                 <div class="row justify-content-center">
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="software-defined-wan.html">
-                        <div class="features__item-img">
-                          <img src="img/privacy_top.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>01</span>
-                          Sd-WAN
-                        </div>
-                        <div class="features__item-text">
-                          Improve the speed and reliability of your network
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/privacy_top.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>01</span>
+                            Sd-WAN
+                          </div>
+                          <div class="features__item-text">
+                            Improve the speed and reliability of your network
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
@@ -343,100 +352,124 @@
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="voice-connect.html">
-                        <div class="features__item-img">
-                          <img src="img/terms_top.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>02</span>
-                          Connectivity
-                        </div>
-                        <div class="features__item-text">
-                          Our SD-WAN based connectivity solution is technology and provider agnostic
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/terms_top.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>02</span>
+                            Connectivity
+                          </div>
+                          <div class="features__item-text">
+                            Our SD-WAN based connectivity solution is technology and provider agnostic
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
                   </div>
-      
+
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="cloud-connect.html">
-                        <div class="features__item-img">
-                          <img src="img/features_item3.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>03</span>
-                          Cloud Connect
-                        </div>
-                        <div class="features__item-text">
-                          Improve the speed and reliabilty of critical cloud-based business applications
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/features_item3.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>03</span>
+                            Cloud Connect
+                          </div>
+                          <div class="features__item-text">
+                            Improve the speed and reliabilty of critical cloud-based business applications
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
                   </div>
-      
+
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="cloud-license.html">
-                        <div class="features__item-img">
-                          <img src="img/features_item4.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>04</span>
-                          Cloud License
-                        </div>
-                        <div class="features__item-text">
-                          Grow your business, streamline your processes and improve efficiency
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/features_item4.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>04</span>
+                            Cloud License
+                          </div>
+                          <div class="features__item-text">
+                            Grow your business, streamline your processes and improve efficiency
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
                   </div>
-      
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="cloud-app.html">
-                        <div class="features__item-img">
-                          <img src="img/features_item5.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>05</span>
-                          Cloud App
-                        </div>
-                        <div class="features__item-text">
-                          The content you're looking for could not be found
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/features_item5.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>05</span>
+                            Cloud App
+                          </div>
+                          <div class="features__item-text">
+                            The content you're looking for could not be found
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
                   </div>
-      
+
                   <div class="col-md-6 features-item">
                     <div class="features__item">
                       <a href="cloud-app.html">
-                        <div class="features__item-img">
-                          <img src="img/features_item6.svg" alt="image">
-                        </div>
-                        <div class="features__item-name">
-                          <span>06</span>
-                          Voice Connect
-                        </div>
-                        <div class="features__item-text">
-                          Leverage the cloud to improve and extend your voice capabilities
+                        <div class="features__item-inner">
+                          <div class="features__item-img">
+                            <img src="img/features_item6.svg" alt="image">
+                          </div>
+                          <div class="features__item-name">
+                            <span>06</span>
+                            Voice Connect
+                          </div>
+                          <div class="features__item-text">
+                            Leverage the cloud to improve and extend your voice capabilities
+                          </div>
+                          <span class="features__item-hover">
+                            Learn more
+                          </span>
                         </div>
                       </a>
                     </div>
                   </div>
-      
+
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
 
-      <section class="about-network" >
+      <section class="about-network">
         <div class="nexuscontainer">
           <div class="about-network__content">
-            
+
             <div class="about-network__title">
               <h2>
                 NEXUS GLOBAL NETWORK
@@ -457,8 +490,8 @@
               </a>
             </div>
             <div class="about-network__img">
-                <img src="img/about_network_mobile_bg.svg" alt="">
-              </div>
+              <img src="img/about_network_mobile_bg.svg" alt="">
+            </div>
           </div>
         </div>
         <div class="about-network__mobile-img">
@@ -476,8 +509,10 @@
 
 
 
-  <script src="js/jquery.js"></script>
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/parallax.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 
 </html>
