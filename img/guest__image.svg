@@ -795,10 +795,10 @@
 <style>
 
   .light1{
-    animation: 1s linear  infinite blink;
+    animation: 1s ease-in-out  infinite blink;
   }
   .light2{
-    animation: 1s linear .2s infinite blink;
+    animation: 1s ease-in-out .2s infinite blink;
   }
   
   @keyframes blink {
@@ -832,16 +832,16 @@
 
 
   .line1{
-    animation: 1.4s linear .3s infinite blinkWifi;
+    animation: 1.4s ease-in-out .3s infinite blinkWifi;
   }
   .line2{
-    animation: 1.4s linear .6s infinite blinkWifi;
+    animation: 1.4s ease-in-out .6s infinite blinkWifi;
   }
   .line3{
-    animation: 1.4s linear .9s infinite blinkWifi;
+    animation: 1.4s ease-in-out .9s infinite blinkWifi;
   }
   .line4{
-    animation: 1.4s linear 1.2s infinite blinkWifi;
+    animation: 1.4s ease-in-out 1.2s infinite blinkWifi;
   }
   
   @keyframes blinkWifi {
@@ -858,19 +858,19 @@
 
   .tvline1{
     stroke-width:0;
-    animation: 1s linear .2s infinite strokeWay;
+    animation: 1s ease-in-out .2s infinite strokeWay;
   }
   .tvline2{
     stroke-width:0;
-    animation: 1s linear .4s infinite strokeWay;
+    animation: 1s ease-in-out .4s infinite strokeWay;
   }
   .tvline3{
     stroke-width:0;
-    animation: 1s linear .6s infinite strokeWay;
+    animation: 1s ease-in-out .6s infinite strokeWay;
   }
   .tvline4{
     stroke-width:0;
-    animation: 1s linear .8s infinite strokeWay;
+    animation: 1s ease-in-out .8s infinite strokeWay;
   }
   
   @keyframes strokeWay {
