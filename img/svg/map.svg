@@ -273,8 +273,8 @@
 
 
     .dashline {
-        stroke-dasharray: 5;
-        stroke-dashoffset: 5;
+        stroke-dasharray: 4;
+        stroke-dashoffset: 4;
         animation: dash 10s linear infinite;
     }
     @keyframes dash {
@@ -292,10 +292,8 @@
         50% {transform:translateX(10px)}
         100% {transform:translateX(0)}
     }
-
-
-
-    
     
     </style>
+
+
 </svg>
