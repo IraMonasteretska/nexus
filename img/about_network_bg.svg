@@ -840,37 +840,25 @@
   }
 
   .circle1{
-    animation: 2s ease-in-out infinite blink;
+    animation: 3s ease-in-out infinite blink;
   }
   .circle2{
-    animation: 2s ease-in-out .3s infinite blink;
+    animation: 3s ease-in-out .3s infinite blink;
   }
   .circle3{
-    animation: 1.9s ease-in-out .6s infinite blink;
+    animation: 3s ease-in-out .6s infinite blink;
   }
   .circle4{
-    animation: 1.7s ease-in-out .9s infinite blink;
+    animation: 3s ease-in-out .9s infinite blink;
   }
   .circle5{
-    animation: 1.8s ease-in-out 1.2s infinite blink;
+    animation: 3s ease-in-out 1.2s infinite blink;
   }
   .circle6{
-    animation: 2s ease-in-out 1.5s infinite blink;
+    animation: 3s ease-in-out 1.5s infinite blink;
   }
 
 
-  @keyframes blink {
-    0%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 0.3;
-    }
-    100%{
-      opacity: 1;
-    }
-    
-  }
   .country1{
     display: block;
   }
